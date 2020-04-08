@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y \
   mercurial \
   subversion
 RUN cat /app/alis
-CMD echo 111
+CMD sh
